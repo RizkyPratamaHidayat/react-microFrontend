@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container"
+  data-testid="home"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <div
+        className="inputContainer"
+        data-testid="input"
+      >
+        <h1>
+          Input
+        </h1>
+        <dl
+          className="description-container"
+          data-testid="descriptions"
+        >
+          <dd
+            className="description-title"
+          >
+            array
+             
+            <sup
+              className="text-danger"
+            >
+              *
+            </sup>
+          </dd>
+          <dt
+            className="description-label"
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              data-testid="textInput"
+            >
+              <input
+                autoComplete="new-password"
+                className="uppercase-value form-control"
+                onChange={[Function]}
+                placeholder="Insert Your array ..."
+                type="text"
+              />
+            </div>
+          </dt>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>
+`;

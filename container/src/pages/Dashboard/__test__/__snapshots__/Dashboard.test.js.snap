@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Dashboard Page render page properly 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <ForwardRef(WithStyles(CssBaseline)) />
+  <ForwardRef(WithStyles(ForwardRef(AppBar)))
+    className="makeStyles-appBar-4 makeStyles-appBarShift-5"
+    position="absolute"
+  >
+    <ForwardRef(WithStyles(ForwardRef(Toolbar)))
+      className="makeStyles-toolbar-2"
+    >
+      <ForwardRef(WithStyles(ForwardRef(IconButton)))
+        aria-label="open drawer"
+        className="makeStyles-menuButton-6 makeStyles-menuButtonHidden-7"
+        color="inherit"
+        edge="start"
+        onClick={[Function]}
+      >
+        <UNDEFINED />
+      </ForwardRef(WithStyles(ForwardRef(IconButton)))>
+      <ForwardRef(WithStyles(ForwardRef(Typography)))
+        className="makeStyles-title-8"
+        color="inherit"
+        component="h1"
+        noWrap={true}
+        variant="h6"
+      >
+        Dashboard
+      </ForwardRef(WithStyles(ForwardRef(Typography)))>
+      <ForwardRef(WithStyles(ForwardRef(IconButton)))
+        color="inherit"
+      >
+        <ForwardRef(WithStyles(ForwardRef(Badge)))
+          badgeContent={4}
+          color="secondary"
+        >
+          <UNDEFINED />
+        </ForwardRef(WithStyles(ForwardRef(Badge)))>
+      </ForwardRef(WithStyles(ForwardRef(IconButton)))>
+    </ForwardRef(WithStyles(ForwardRef(Toolbar)))>
+  </ForwardRef(WithStyles(ForwardRef(AppBar)))>
+  <BrowserRouter>
+    <ForwardRef(WithStyles(ForwardRef(Drawer)))
+      classes={
+        Object {
+          "paper": "makeStyles-drawerPaper-9",
+        }
+      }
+      open={true}
+      variant="permanent"
+    >
+      <div
+        className="makeStyles-toolbarIcon-3"
+      >
+        <ForwardRef(WithStyles(ForwardRef(IconButton)))
+          onClick={[Function]}
+        >
+          <UNDEFINED />
+        </ForwardRef(WithStyles(ForwardRef(IconButton)))>
+      </div>
+      <ForwardRef(WithStyles(ForwardRef(List)))>
+        <div>
+          <div
+            className="makeStyles-toolbar-2"
+          />
+          <ForwardRef(WithStyles(ForwardRef(Divider))) />
+          <ForwardRef(WithStyles(ForwardRef(List)))>
+            <ForwardRef(WithStyles(ForwardRef(ListItem)))
+              button={true}
+              component={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              to="/"
+            >
+              <ForwardRef(WithStyles(ForwardRef(ListItemIcon)))>
+                <UNDEFINED />
+              </ForwardRef(WithStyles(ForwardRef(ListItemIcon)))>
+              <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+                primary="Member Management"
+              />
+            </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+            <ForwardRef(WithStyles(ForwardRef(ListItem)))
+              button={true}
+              component={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              to="/bootcamp"
+            >
+              <ForwardRef(WithStyles(ForwardRef(ListItemIcon)))>
+                <UNDEFINED />
+              </ForwardRef(WithStyles(ForwardRef(ListItemIcon)))>
+              <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+                primary="Bootcamp"
+              />
+            </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+            <ForwardRef(WithStyles(ForwardRef(ListItem)))
+              button={true}
+              component={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              to="/syllabus"
+            >
+              <ForwardRef(WithStyles(ForwardRef(ListItemIcon)))>
+                <UNDEFINED />
+              </ForwardRef(WithStyles(ForwardRef(ListItemIcon)))>
+              <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+                primary="Syllabus"
+              />
+            </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+            <ForwardRef(WithStyles(ForwardRef(ListItem)))
+              button={true}
+              component={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              to="/task"
+            >
+              <ForwardRef(WithStyles(ForwardRef(ListItemIcon)))>
+                <UNDEFINED />
+              </ForwardRef(WithStyles(ForwardRef(ListItemIcon)))>
+              <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+                primary="Task"
+              />
+            </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+            <ForwardRef(WithStyles(ForwardRef(ListItem)))
+              button={true}
+              component={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "innerRef": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              to="/stage"
+            >
+              <ForwardRef(WithStyles(ForwardRef(ListItemIcon)))>
+                <UNDEFINED />
+              </ForwardRef(WithStyles(ForwardRef(ListItemIcon)))>
+              <ForwardRef(WithStyles(ForwardRef(ListItemText)))
+                primary="Stage"
+              />
+            </ForwardRef(WithStyles(ForwardRef(ListItem)))>
+          </ForwardRef(WithStyles(ForwardRef(List)))>
+        </div>
+      </ForwardRef(WithStyles(ForwardRef(List)))>
+    </ForwardRef(WithStyles(ForwardRef(Drawer)))>
+    <main
+      className="makeStyles-content-12"
+    >
+      <div
+        className="makeStyles-appBarSpacer-11"
+      />
+      <ForwardRef(WithStyles(ForwardRef(Container)))
+        className="makeStyles-container-13"
+        maxWidth="lg"
+      >
+        <Switch>
+          <Route
+            exact={true}
+            path="/"
+            render={[Function]}
+          />
+          <Route
+            path="/bootcamp"
+            render={[Function]}
+          />
+          <Route
+            path="/syllabus"
+            render={[Function]}
+          />
+          <Route
+            path="/task"
+            render={[Function]}
+          />
+          <Route
+            path="/stage"
+            render={[Function]}
+          />
+        </Switch>
+      </ForwardRef(WithStyles(ForwardRef(Container)))>
+    </main>
+  </BrowserRouter>
+</div>
+`;
